@@ -1,0 +1,62 @@
+html {
+    width: 96%;
+    height: auto;
+    margin: auto;
+
+    
+}
+
+h2 span {
+    font-size: 0.6em;
+}
+
+nav {
+    display: block;
+    background-color: #363535;
+}
+ul{
+    color: lightgrey;
+    list-style: none;
+}
+
+nav>ul>li{
+    display:inline-block;
+    padding:10px;
+}
+nav>ul>li:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: grey;
+}
+
+.carousel {
+    background-color: #9b9b9b;
+    height: 150px;
+
+}
+
+section>H2 {
+    text-align: center;
+}
+
+.img>article {
+    display:inline-block;
+    width: 33%;
+    height: 150px;
+    background-color: grey;
+    margin-bottom: 10%;
+}
+
+input{
+    width: 80%;
+    height: 20px;
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
+
+textarea {
+    width: 80%;
+    height: 100px;
+    margin-bottom: 1%;
+    margin-left: 10%;
+}
